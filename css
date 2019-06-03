@@ -25,6 +25,12 @@ header h1 {
   padding: 0px 0px 20px 0px;
 }
 
+
+hr{
+  border: 3px solid black;
+}
+
+
 .form{
   border: 1px solid orange;
 }
@@ -32,4 +38,8 @@ header h1 {
 .form h1 {
   color: black;
   font-size: 22px;
+}
+
+#full-name{
+  font-size: 35px;
 }
