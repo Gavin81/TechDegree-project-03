@@ -32,7 +32,7 @@ hr{
 
 
 .form{
-  border: 1px solid orange;
+  border: 2px solid orange;
 }
 
 .form h1 {
@@ -40,6 +40,29 @@ hr{
   font-size: 22px;
 }
 
-#full-name{
-  font-size: 35px;
+.form label{
+  border: 1px solid red;
+  font-size: 20px;
+  color: grey;
+}
+.form input{
+  border: 2px solid green;
+  margin: 20px 0px;
+  padding: 20px 100px;
+  background-color: lightgrey;
+  border-radius: 3px;
+}
+
+
+footer{
+
+}
+footer h4{
+  color: lightgrey;
+}
+
+
+@media screen and (min-width: 760px){
+
+
 }
