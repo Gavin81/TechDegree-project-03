@@ -87,11 +87,12 @@ footer h3{
   width: 90%;
   padding: 30px 0px;
   background-color: #075770;
+  font-family: bebas neue, sans-serif;
   font-size: 30px;
   color: white;
 }
 #button[type=button]{
-  
+
 }
 footer h4{
   font-size: 15px;
