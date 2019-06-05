@@ -55,25 +55,48 @@ hr{
 
 
 footer{
-
+  border: 1px solid red;
 }
 footer li{
   list-style: none;
+  padding-left: 15px;
 }
 footer h2{
   font-size: 20px;
   color: black;
 }
 footer p{
-font-size: 20px;
-color: lightgrey;
+  font-size: 20px;
+  color: lightgrey;
+  padding-left: 15px;
 }
 footer h3{
   font-size: 17px;
   color: lightgrey;
+  padding-left: 15px;
+}
+#other{
+  margin: auto;
+  display: block;
+  width: 90%;
+  padding: 40px 0px;
+}
+#button{
+  margin: auto;
+  display: block;
+  width: 90%;
+  padding: 30px 0px;
+  background-color: #075770;
+  font-size: 30px;
+  color: white;
+}
+#button[type=button]{
+  
 }
 footer h4{
+  font-size: 15px;
   color: lightgrey;
+  text-align: center;
 }
 
 

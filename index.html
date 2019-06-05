@@ -26,31 +26,31 @@
   <h1>Contact Information</h1>
 <li>
   <label for="full-name">Full Name</label><br>
-  <input type="text" name="full-name" id="full-name" />
+  <input type="text" name="full-name" id="full-name" value="First Name" required/>
 </li>
 <li>
-  <br><label for="lastname">Email Address</label><br>
-  <input type="text" name="lastname" id="lastname" />
+  <br><label for="Email">Email Address</label><br>
+  <input type="text" name="Email" id="email" value="Email address" required/>
 </li>
 <li>
   <br><label for="phone-number">Phone Number</label>
-  <br><input type="text" name="phone-number" id="phone-number" />
+  <br><input type="text" name="phone-number" id="phone-number" required/>
 </li>
 <li>
   <br><label for="street-address">Street Address</label>
-  <br><input type="text" name="street-address" id="street-address" />
+  <br><input type="text" name="street-address" id="street-address" required/>
 </li>
 <li>
   <br><label for="city">City</label>
-  <br><input type="text" name="city" id="city" />
+  <br><input type="text" name="city" id="city" required/>
 </li>
 <li>
   <br><label for="state">State</label>
-  <br><input type="text" name="state" id="state" />
+  <br><input type="text" name="state" id="state" required/>
 </li>
 <li>
   <br><label for="zip-code">Zip Code</label>
-  <br><input type="text" name="zip-code" id="zip-code" />
+  <br><input type="text" name="zip-code" id="zip-code" required/>
 </li>
 
 </form>
@@ -63,7 +63,7 @@
 
 <p>Select the newsletters you  would like to recieve</p>
 <li>
-  <input type="checkbox" id="html" name="html" checked="checked" />
+  <input type="checkbox" id="html" name="html" checked="checked" value=""/>
   <label for="html">HTML</label>
 </li>
 <li>
@@ -77,15 +77,19 @@
 
   <h3>Newsletter format</h3>
 
+<li>
   <input type="radio" id="html" name="html" checked=checked>
   <label for="html">HTML</label>
-
-  <br><input type="radio" id="plain" name="plain" checked=checked>
+</li>
+<li>
+  <br><input type="radio" id="plain" name="plain" checked=none>
   <label for="plain">Plain text</label>
+</li>
 
   <p>Other topics you'd like to hear about</p>
+
   <input type="text" id="other" name="other" />
-  <br><input type="button" id="button">
+  <br><input type="button" id="button" value="Sign Up" placeholder="Sign Up">
 
   <h4> Copyright The Code Review</h4>
 </footer>
