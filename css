@@ -57,6 +57,21 @@ hr{
 footer{
 
 }
+footer li{
+  list-style: none;
+}
+footer h2{
+  font-size: 20px;
+  color: black;
+}
+footer p{
+font-size: 20px;
+color: lightgrey;
+}
+footer h3{
+  font-size: 17px;
+  color: lightgrey;
+}
 footer h4{
   color: lightgrey;
 }
