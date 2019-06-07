@@ -32,16 +32,17 @@ hr{
 
 
 .form{
-  border: 2px solid orange;
-}
 
+}
+.form li{
+  list-style: none;
+}
 .form h1 {
   color: black;
   font-size: 22px;
 }
 
 .form label{
-  border: 1px solid red;
   font-size: 20px;
   color: grey;
 }
