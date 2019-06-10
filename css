@@ -32,10 +32,9 @@ hr{
 
 
 .form{
-  border: 1px solid red;
+
 }
 .form ul{
-  border: 2px solid orange;
   margin: 0px 0px;
   padding: 0px 0px;
 }
@@ -52,7 +51,6 @@ hr{
   color: grey;
 }
 .form input{
-  border: 2px solid green;
   margin: 20px 0px;
   padding: 20px 100px;
   background-color: lightgrey;
