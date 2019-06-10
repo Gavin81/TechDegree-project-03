@@ -114,16 +114,18 @@ footer h4{
 }
 
 
-@media screen and (min-width: 760px){
+@media screen and (min-width: 768px){
 
   header{
-    border: 2px solid black;
+     border: 2px solid black;
   }
   header h1{
 
   }
   header h2{
-
+    font-size: 20px;
+    color: green;
+    text-align: center;
   }
   header p{
 
@@ -142,11 +144,12 @@ footer h4{
   }
 
   hr{
-
+    border: 1px solid black;
+    width: 80%;
   }
 
   .form{
-
+    border: 2px solid orange;
   }
   .form ul{
 
@@ -161,7 +164,7 @@ footer h4{
 
   }
   .form input{
-
+    display: inline-block;
   }
 
 }
