@@ -116,9 +116,20 @@ footer h4{
 
 @media screen and (min-width: 760px){
 
-  h1{
+  header{
+    border: 2px solid black;
+  }
+  header h1{
 
   }
+  header h2{
+
+  }
+  header p{
+
+  }
+
+
 
   .signup{
 
