@@ -43,9 +43,18 @@ hr{
 .form li{
   list-style: none;
 }
-.form h1 {
-  color: black;
-  font-size: 22px;
+.number {
+  padding: 1px 5px;
+  margin-left: 13px;
+  background-color: #5fcf80;
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 100%;
+}
+legend{
+  font-size: 23px;
+  margin-bottom: 10px;
 }
 
 .form label{
@@ -96,7 +105,7 @@ footer h3{
 #button{
   margin: auto;
   display: block;
-  width: 91%;
+  width: 84%;
   padding: 20px 10px 20px 10px;
   background-color: #075770;
   font-family: bebas neue, sans-serif;

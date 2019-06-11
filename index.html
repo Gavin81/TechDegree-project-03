@@ -22,7 +22,10 @@
   <form class="form">
     <hr>
 
-    <h1>Contact Information</h1>
+    <!--<h1>Contact Information</h1>-->
+    <legend><span class="number">1</span> Contact Information</legend>
+
+  <fieldset>
     <ul>
       <li>
         <label for="full-name">Full Name</label><br>
@@ -53,16 +56,21 @@
         <br><input type="text" name="zip-code" id="zip-code" value="Required" required/>
       </li>
     </ul>
+  </fieldset>
 
   </form>
 
 </main>
 
 <hr>
-<footer>
-  <h2>Newsletter</h2>
 
+<footer>
+  <!--<h2>Newsletter</h2>-->
+  <legend><span class="number">2</span> Newsletter</legend>
+
+<fieldset>
 <p>Select the newsletters you  would like to recieve</p>
+
 <ul>
   <li>
     <input type="checkbox" id="html" name="newsletter" checked="checked" value=""/>
@@ -94,6 +102,8 @@
   <p>Other topics you'd like to hear about</p>
 
   <input type="text" id="other" name="other" />
+</fieldset>
+
   <br><input type="button" id="button" value="Sign Up">
 
   <h4> Copyright The Code Review</h4>
