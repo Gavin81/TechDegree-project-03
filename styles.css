@@ -135,7 +135,7 @@ footer h4{
 
   hr{
     border: 1px solid black;
-    width: 80%;
+    width: 85%;
   }
 
   .form{
@@ -151,10 +151,10 @@ footer h4{
 
   }
   .form label{
-
+    border: 1px solid red;
   }
   .form input{
-    float: ;
+    border: 1px solid blue;
   }
 
 
@@ -185,7 +185,9 @@ footer h4{
     background-color: lightgrey;
   }
   #button{
-    
+    font-size: 20px;
   }
+
+
 
 }
