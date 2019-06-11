@@ -117,30 +117,20 @@ footer h4{
 @media screen and (min-width: 768px){
 
   header{
-     border: 2px solid black;
+     border: 3px solid black;
   }
   header h1{
-
+    font-size: 19px;
   }
-  header h2{
-    font-size: 20px;
-    color: green;
-    text-align: center;
-  }
-  header p{
-
-  }
-
-
 
   .signup{
 
   }
   .signup h2{
-
+    font-size: 23px;
   }
   .signup p{
-
+    font-size: 15px;
   }
 
   hr{
@@ -149,7 +139,7 @@ footer h4{
   }
 
   .form{
-    border: 2px solid orange;
+    border: 3px solid orange;
   }
   .form ul{
 
@@ -164,7 +154,32 @@ footer h4{
 
   }
   .form input{
-    display: inline-block;
+    float: ;
+  }
+
+
+  footer{
+    border: 2px solid green;
+  }
+  footer h2{/* Newsletter Heading */
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 30px;
+  }
+  footer p{/* Select the newsletters */
+    font-size: 20px;
+  }
+  footer ul{
+
+  }
+  footer li{
+
+  }
+  footer h3{/* Newsletter Format */
+    font-size: 19px;
+  }
+  footer h4{/* Copy right */
+    font-size: 15px;
   }
 
 }
