@@ -181,5 +181,11 @@ footer h4{
   footer h4{/* Copy right */
     font-size: 15px;
   }
+  #other{
+    background-color: lightgrey;
+  }
+  #button{
+    
+  }
 
 }
