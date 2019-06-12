@@ -150,17 +150,22 @@ footer h4{
   .form{
     border: 3px solid orange;
   }
+  fieldset{
+    border: none;
+  }
   .form ul{
 
   }
   .form li{
-
+    display: flex;
   }
   .form h1{
 
   }
   .form label{
     border: 1px solid red;
+    margin: 0px 30px 0px 0px;
+    padding: 32px 20px 0px 0px;
   }
   .form input{
     border: 1px solid blue;
