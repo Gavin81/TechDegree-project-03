@@ -149,7 +149,7 @@ footer h4{
 
   .form{
     border: 3px solid orange;
-    flex-direction: row;
+    flex-direction: ;
   }
   fieldset{
     border: none;
@@ -158,17 +158,20 @@ footer h4{
 
   }
   .form li{
-    display: ;
+
   }
   .form h1{
 
   }
-  .form label{
-    margin: 0px 30px 0px 0px;
-    padding: 32px 20px 0px 0px;
+  .form label, label{
+    border: 1px solid red;
+    width: 200px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
   .form input{
-    float: ;
+    border: 1px solid blue;
+    margin: 0px 0px 0px 0px;
   }
 
 
