@@ -163,14 +163,18 @@ footer h4{
   .form h1{
 
   }
-  .form label, label{
+  .form label{
     border: 1px solid red;
-    width: 200px;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    width: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
   }
   .form input{
     border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
     margin: 0px 0px 0px 0px;
   }
 
