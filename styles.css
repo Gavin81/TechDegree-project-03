@@ -149,33 +149,33 @@ footer h4{
 
   .form{
     border: 3px solid orange;
-    flex-direction: ;
+    margin: auto;
+    width: 650px;
+  }
+  div{
+
   }
   fieldset{
     border: none;
-  }
-  .form ul{
-
-  }
-  .form li{
-
   }
   .form h1{
 
   }
   .form label{
     border: 1px solid red;
-    width: 190px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+    width: 200px;
+    height: ;
+    display: inline-block;
+    text-align: left;
+    float: left;
+    margin: 45px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
   }
   .form input{
     border: 1px solid blue;
-    display: flex;
-    flex-direction: row;
-    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    text-align: left;
+    float: right;
   }
 
 
