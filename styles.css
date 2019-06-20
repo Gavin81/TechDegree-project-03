@@ -149,11 +149,10 @@ footer h4{
   }
 
   main{
-    border: 3px solid blue;
+
   }
 
   .form{
-    border: 3px solid red;
     margin: auto;
     width: 725px;
   }
