@@ -126,7 +126,7 @@ footer h4{
 @media screen and (min-width: 768px){
 
   header{
-     border:;
+     border: 2px solid red;
   }
   header h1{
     font-size: 19px;
@@ -148,20 +148,22 @@ footer h4{
     width: 98%;
   }
 
+  main{
+    border: 3px solid blue;
+  }
+
   .form{
-    border:;
+    border: 3px solid red;
     margin: auto;
-    width: 660px;
+    width: 725px;
   }
   legend{
     border:;
     margin: 40px 0px 0px -18px;
   }
-  .number{
-    border: 1px solid ;
-  }
-  div{
-
+  .form-area{
+    height: 680px;
+    width: 100%;
   }
   fieldset{
     border: none;
@@ -187,7 +189,7 @@ footer h4{
 
 
   footer{
-
+    width: 100%;
   }
   legend{/* Newsletter Heading */
     font-size: 20px;
@@ -200,11 +202,10 @@ footer h4{
     padding-left: 0px;
   }
   div {
-    border: 1px solid blue;
     padding: 0px 0px 0px 0px;
   }
- input{
-    border: 1px solid red;
+  input{
+
   }
   footer h3{/* Newsletter Format */
     font-size: 19px;
@@ -215,10 +216,13 @@ footer h4{
     font-size: 15px;
   }
   #other{
+    width: 100%;
     background-color: lightgrey;
   }
   #button{
+    width: 97%;
     font-size: 20px;
+    border-radius: 5px;
   }
 
 
