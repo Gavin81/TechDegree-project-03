@@ -126,7 +126,7 @@ footer h4{
 @media screen and (min-width: 768px){
 
   header{
-     border: 3px solid black;
+     border:;
   }
   header h1{
     font-size: 19px;
@@ -137,20 +137,28 @@ footer h4{
   }
   .signup h2{
     font-size: 23px;
+    margin: 30px 0px 0px 0px;
   }
   .signup p{
     font-size: 15px;
   }
 
   hr{
-    border: 1px solid black;
-    width: 85%;
+    border: 3px solid black;
+    width: 98%;
   }
 
   .form{
-    border: 3px solid orange;
+    border:;
     margin: auto;
-    width: 650px;
+    width: 660px;
+  }
+  legend{
+    border:;
+    margin: 40px 0px 0px -18px;
+  }
+  .number{
+    border: 1px solid ;
   }
   div{
 
@@ -162,14 +170,13 @@ footer h4{
 
   }
   .form label{
-    border: 1px solid red;
     width: 200px;
     height: ;
     display: inline-block;
     text-align: left;
     float: left;
-    margin: 45px 0px 0px 0px;
-    padding: 20px 0px 0px 0px;
+    margin: 42px 0px 5px 0px;
+    padding: 19px 0px 0px 0px;
   }
   .form input{
     border: 1px solid blue;
@@ -182,25 +189,27 @@ footer h4{
   footer{
 
   }
-  footer h2{/* Newsletter Heading */
+  legend{/* Newsletter Heading */
     font-size: 20px;
-    margin-left: 12px;
+    margin-left: -5px;
     margin-top: 30px;
-    padding-left: 23px;
+    padding-left: 0px;
   }
   footer p{/* Select the newsletters */
     font-size: 20px;
-    padding-left: 36px;
+    padding-left: 0px;
   }
-  footer ul{
-    padding-left: 20px;
+  div {
+    border: 1px solid blue;
+    padding: 0px 0px 0px 0px;
   }
-  footer li{
-
+ input{
+    border: 1px solid red;
   }
   footer h3{/* Newsletter Format */
     font-size: 19px;
-    padding-left: 36px;
+    margin-left: 0px;
+    padding-left: 0px;
   }
   footer h4{/* Copy right */
     font-size: 15px;
