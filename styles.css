@@ -157,7 +157,7 @@ footer h4{
     width: 725px;
   }
   legend{
-    margin: 40px 0px 0px -18px;
+    margin: 40px 0px 0px -16px;
   }
   .form-area{
     height: 680px;
@@ -178,10 +178,12 @@ footer h4{
     padding: 19px 0px 0px 0px;
   }
   .form input{
-    border: 1px solid blue;
     display: inline-block;
     text-align: left;
     float: right;
+  }
+  #zip-code{
+    width: 1%;
   }
 
 
@@ -193,7 +195,6 @@ footer h4{
   }
   legend{/* Newsletter Heading */
     font-size: 20px;
-    margin-left: -5px;
     margin-top: 30px;
     padding-left: 0px;
   }
@@ -224,7 +225,6 @@ footer h4{
     font-size: 20px;
     border-radius: 5px;
   }
-
 
 
 }

@@ -22,10 +22,9 @@
 
 <main>
   <form class="form" method="post">
-  <legend><span class="number">1</span> Contact Information</legend>
     <!--<h1>Contact Information</h1>-->
-
-  <div class="form-area">
+  <fieldset class="form-area">
+    <legend><span class="number">1</span> Contact Information</legend>
       <label for="name">Full Name</label>
       <input type="text" name="user_name" id="name" value="Required" required/>
 
@@ -52,20 +51,19 @@
 
       <label for="zip-code">Zip Code</label>
       <input type="Zip" name="zip-code" id="zip-code" value="Required" required/>
-  </div>
+  </fieldset>
 
 </main>
 
 <hr>
 
 <footer>
-  <fieldset>
+
+<fieldset>
   <!--<h2>Newsletter</h2>-->
   <legend><span class="number">2</span> Newsletter</legend>
 
-
-
-<p>Select the newsletters you  would like to recieve</p>
+  <p>Select the newsletters you  would like to recieve</p>
 
 <div>
     <input type="checkbox" id="html" name="newsletter" checked="checked" value=""/>
@@ -94,12 +92,13 @@
 
   <textarea type="text" id="other" name="other"> </textarea>
 
-
   <br><button type="submit" id="button" value="Sign Up">Sign Up</button>
-</fieldset>
-  </form>
 
-  <h4> Copyright The Code Review</h4>
+</fieldset>
+
+</form>
+
+<h4> Copyright The Code Review</h4>
 
 </footer>
 </body>
