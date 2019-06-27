@@ -36,12 +36,8 @@ hr{
 .form{
 
 }
-.form ul{
-  margin: 0px 0px;
-  padding: 0px 0px;
-}
-.form li{
-  list-style: none;
+.form-area{
+  display: ;
 }
 .number {
   padding: 1px 5px;
@@ -58,51 +54,66 @@ legend{
 }
 
 .form label{
+  border: 1px solid blue;
   font-size: 20px;
   color: grey;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 .form input{
-  margin: 20px 0px;
-  padding: 20px 100px;
+  border: 1px solid red;
+  margin: 15px 0px;
+  padding: 15px 90px;
   background-color: lightgrey;
   border-radius: 3px;
 }
+input:focus{
+
+}
+#state{
+  border: 2px solid red;
+  margin: 0px 0px 10px 50px;
+  line-height: 20px;
+  height: 20px;
+}
+
+
 
 
 footer{
 
 }
-footer ul{
-  margin: 0px 0px;
-  padding: 0px 0px;
-}
-footer li{
-  list-style: none;
-  padding-left: 15px;
-}
-footer h2{
-  font-size: 20px;
-  color: black;
+fieldset{
+
 }
 footer p{
-  font-size: 20px;
+  font-size: 18px;
   color: grey;
   padding-left: 15px;
 }
 footer h3{
-  font-size: 17px;
+  font-size: 18px;
   color: grey;
   margin-top: 30px;
   padding-left: 15px;
   padding-bottom: 0px;
 }
+.checkbox{
+  padding-left: 10px;
+}
+.radio{
+  padding-left: 10px;
+}
 #topics{
-
+  font-size: 19px;
+  margin-left: 15px;
+  margin-top: 20px;
 }
 #other{
   margin: auto;
   display: block;
   width: 90%;
+  margin-top: 20px;
   padding: 40px 0px;
 }
 #button{
@@ -163,15 +174,19 @@ footer h4{
     margin: auto;
     width: 725px;
   }
+  .number{
+    margin: 0px 0px 0px -16px;
+    padding: 5px 10px 5px 10px;
+  }
   legend{
-    margin: 40px 0px 0px -16px;
+
   }
   .form-area{
     height: 680px;
     width: 100%;
   }
   fieldset{
-    border: none;
+
   }
   .form h1{
 
@@ -203,28 +218,28 @@ footer h4{
   legend{/* Newsletter Heading */
     font-size: 20px;
     margin-top: 30px;
-    padding-left: 0px;
+    padding-left: 10px;
   }
   footer p{/* Select the newsletters */
     font-size: 20px;
     padding-left: 0px;
   }
-  div {
+  .checkbox {
     padding: 0px 0px 0px 0px;
   }
-  input{
 
-  }
   footer h3{/* Newsletter Format */
     font-size: 19px;
     margin-left: 0px;
+    padding-left: 0px;
+  }
+  .radio{
     padding-left: 0px;
   }
   footer h4{/* Copy right */
     font-size: 15px;
   }
   #topics{
-    border: 1px solid black;
     font-size: 18px;
     margin: 20px 0px 20px 0px;
   }
@@ -236,7 +251,7 @@ footer h4{
     width: 97%;
     font-size: 20px;
     border-radius: 5px;
+    margin-top: 20px;
   }
-
 
 }
