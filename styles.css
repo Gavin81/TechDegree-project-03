@@ -63,7 +63,6 @@ legend{
   padding: 0px 0px 0px 0px;
 }
 .form input{
-  border: 1px solid red;
   margin: 15px 0px;
   padding: 15px 90px;
   background-color: lightgrey;
@@ -194,6 +193,7 @@ footer h4{
 
   }
   .form label{
+    border: 1px solid red;
     width: 200px;
     display: inline-block;
     text-align: left;
@@ -202,6 +202,7 @@ footer h4{
     padding: 19px 0px 0px 0px;
   }
   .form input{
+    border: 1px solid blue;
     display: inline-block;
     text-align: left;
     float: right;
