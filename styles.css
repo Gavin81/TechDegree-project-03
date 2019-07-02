@@ -186,29 +186,28 @@ footer h4{
     height: 680px;
     width: 100%;
   }
-  fieldset{
 
-  }
-  .form h1{
-
-  }
   .form label{
     border: 1px solid red;
     width: 200px;
-    display: inline-block;
+    display: flex;
     text-align: left;
     float: left;
-    margin: 42px 0px 5px 0px;
-    padding: 10px 0px 0px 0px;
+    margin: 40px 0px 5px 0px;
+    padding: 5px 0px 0px 0px;
   }
   .form input{
     border: 1px solid blue;
-    display: inline-block;
+    width: 300px;
+    display: flex;
     text-align: left;
     float: right;
   }
   #zip-code{
-    width: 1%;
+
+  }
+  div{
+
   }
 
 
