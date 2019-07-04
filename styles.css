@@ -222,7 +222,9 @@ footer h4{
     text-align: left;
     float: right;
 */
-
+  }
+  .form input:focus{
+    
   }
   .info {
     margin: auto;
