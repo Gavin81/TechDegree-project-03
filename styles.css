@@ -139,6 +139,9 @@ footer h4{
 
 
 @media screen and (min-width: 768px){
+  *{
+    box-sizing: border-box;
+  }
 
   body{
     border: 2px solid black;
@@ -149,6 +152,9 @@ footer h4{
   }
   header h1{
     font-size: 19px;
+  }
+  fieldset{
+
   }
 
   .signup{
@@ -172,8 +178,9 @@ footer h4{
   }
 
   .form{
+    border: 2px solid red;
     margin: auto;
-    width: 725px;
+    width: 100%;
   }
   .number{
     margin: 0px 0px 0px -16px;
