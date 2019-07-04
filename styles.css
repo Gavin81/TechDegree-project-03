@@ -202,26 +202,28 @@ footer h4{
 
   .form label{
     border: 1px solid red;
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    margin: 0px 200px 0px 0px;
+    padding: 0px 150px 0px 0px;
 /*
     width: 250px;
     display: inline-block;
     text-align: left;
     float: left;
-    margin: 40px 0px 5px 0px;
-    padding: 5px 0px 0px 0px;
 */
   }
   .form input{
     border: 1px solid blue;
+    width: 300px;
+    box-sizing: border-box;
 /*
     width: 250px;
     display: inline-block;
     text-align: left;
     float: right;
 */
-
-  }
-  #zip-code{
 
   }
   .info {
