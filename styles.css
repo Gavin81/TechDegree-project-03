@@ -1,6 +1,6 @@
 
 *{
-  box-sizing:border-box;
+  box-sizing:;
 }
 
 body{
@@ -29,7 +29,6 @@ header h1 {
 .signup p {
   text-align: center;
   font-size: 17px;
-  color: grey;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 20px 0px;
 }
@@ -44,7 +43,7 @@ hr{
 
 }
 .form-area{
-  display: ;
+
 }
 .number {
   padding: 1px 5px;
@@ -53,7 +52,7 @@ hr{
   color: white;
   font-size: 20px;
   line-height: 30px;
-  border-radius: 100%;
+  border-radius: 100% 100%;
 }
 legend{
   font-size: 23px;
@@ -62,7 +61,7 @@ legend{
 
 .form label{
   font-size: 20px;
-  color: grey;
+  color: black;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
 }
@@ -70,13 +69,11 @@ legend{
   margin: 15px 0px;
   padding: 15px 90px;
   background-color: lightgrey;
-  border-radius: 3px;
 }
 input:focus{
 
 }
 #state{
-  border: 2px solid red;
   margin: 15px 0px 10px 70px;
   line-height: 20px;
   height: 45px;
@@ -93,12 +90,12 @@ fieldset{
 }
 footer p{
   font-size: 18px;
-  color: grey;
+  color: black;
   padding-left: 15px;
 }
 footer h3{
   font-size: 18px;
-  color: grey;
+  color: black;
   margin-top: 30px;
   padding-left: 15px;
   padding-bottom: 0px;
@@ -136,7 +133,7 @@ footer h3{
 }
 footer h4{
   font-size: 15px;
-  color: lightgrey;
+  color: black;
   text-align: center;
   margin-bottom: 180px;
 }
@@ -196,6 +193,7 @@ footer h4{
 
   }
   .form-area{
+    margin: auto;
     height: 690px;
     width: 100%;
   }
@@ -203,7 +201,7 @@ footer h4{
   .form label{
     border: 1px solid red;
     display: inline-block;
-    width: 90px;
+    width: 110px;
     text-align: right;
     margin: 0px 200px 0px 0px;
     padding: 0px 150px 0px 0px;
@@ -217,7 +215,7 @@ footer h4{
   .form input{
     border: 1px solid blue;
     width: 300px;
-    box-sizing: border-box;
+    box-sizing: ;
 /*
     width: 250px;
     display: inline-block;
@@ -227,7 +225,7 @@ footer h4{
 
   }
   .info {
-
+    margin: auto;
   }
 
 
