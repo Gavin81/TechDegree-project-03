@@ -217,7 +217,7 @@ footer h4{
 */
   }
   .form input:focus{
-
+    background-color: lightgrey;
   }
   .info {
     margin: auto;
