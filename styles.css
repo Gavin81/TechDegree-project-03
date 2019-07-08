@@ -4,7 +4,7 @@
 }
 
 body{
-  border: 2px solid red;
+
 }
 
 header h1 {
@@ -146,7 +146,7 @@ footer h4{
   }
 
   body{
-    border: 2px solid black;
+
   }
 
   header{
@@ -194,26 +194,19 @@ footer h4{
   }
   .form-area{
     margin: auto;
+    margin-top: 30px;
     height: 690px;
     width: 100%;
   }
 
   .form label{
-    border: 1px solid red;
     display: inline-block;
     width: 110px;
     text-align: right;
     margin: 0px 200px 0px 0px;
     padding: 0px 150px 0px 0px;
-/*
-    width: 250px;
-    display: inline-block;
-    text-align: left;
-    float: left;
-*/
   }
   .form input{
-    border: 1px solid blue;
     width: 300px;
     box-sizing: ;
 /*
