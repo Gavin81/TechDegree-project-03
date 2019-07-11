@@ -60,6 +60,7 @@ legend{
 }
 
 .form label{
+  display: block;
   font-size: 20px;
   color: black;
   margin: 0px 0px 0px 0px;
@@ -214,6 +215,9 @@ footer h4{
     text-align: left;
     float: right;
 */
+  }
+  #zip-code{
+    width: 150px;
   }
   .form input:focus{
     background-color: lightgrey;
