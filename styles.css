@@ -1,5 +1,5 @@
 
-*{
+* {
   box-sizing:;
 }
 
@@ -208,7 +208,6 @@ footer h4{
   }
   .form input{
     width: 300px;
-    box-sizing: ;
 /*
     width: 250px;
     display: inline-block;
