@@ -103,7 +103,7 @@ fieldset h3{
 .checkbox label{
   display: inline-block;
   margin-left: 5px;
-  padding-left: 10px;
+  padding-left: 7px;
 }
 .radio{
   padding-left: 10px;
@@ -114,7 +114,7 @@ fieldset h3{
 .radio label{
   display: inline-block;
   margin-left: 5px;
-  padding-left: 10px;
+  padding-left: 7px;
 }
 
 #topics{
