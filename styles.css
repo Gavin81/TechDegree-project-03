@@ -214,7 +214,6 @@ footer h4{
   }
 
   .form label{
-    border: 2px solid red;
     display: inline-block;
     width: 130px;
     text-align: left;
@@ -222,7 +221,6 @@ footer h4{
     padding: 0px 0px 0px 0px;
   }
   .form input{
-    border: 2px solid green;
     width: 300px;
 /*
     width: 250px;
@@ -232,8 +230,7 @@ footer h4{
 */
   }
   #state{
-    border: 2px solid blue;
-    width: 40%;
+    width: 300px;
     margin: 10px 0px 0px 0px;
   }
   #zip-code{
@@ -249,9 +246,7 @@ footer h4{
 
 
 
-  footer{
-    width: 100%;
-  }
+
   fieldset{
 
   }
@@ -260,28 +255,37 @@ footer h4{
     margin-top: 30px;
     padding-left: 10px;
   }
-  footer p{/* Select the newsletters */
+  fieldset h3{/* Select the newsletters */
     font-size: 20px;
     padding-left: 0px;
   }
   .checkbox {
     padding: 0px 0px 0px 0px;
   }
+  .checkbox input{
 
-  footer h3{/* Newsletter Format */
-    font-size: 19px;
-    margin-left: 0px;
-    padding-left: 0px;
   }
+  .checkbox label{
+    margin: 0px 0px 0px -270px;
+    padding: 0px 0px 0px 0px;
+  }
+
   .radio{
-    padding-left: 0px;
+
+  }
+  .radio input{
+
+  }
+  .radio label{
+    margin: 0px 0px 0px -270px;
+    padding: 0px 0px 0px 0px;
   }
   footer h4{/* Copy right */
     font-size: 15px;
   }
   #topics{
     font-size: 18px;
-    margin: 20px 0px 20px 0px;
+    margin: 40px 0px 0px 0px;
   }
   #other{
     width: 100%;
@@ -294,4 +298,12 @@ footer h4{
     margin-top: 20px;
   }
 
+  footer{
+    width: 100%;
+  }
+  footer h3{/* Newsletter Format */
+    font-size: 19px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
 }
