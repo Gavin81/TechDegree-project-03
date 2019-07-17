@@ -1,6 +1,6 @@
 
 * {
-  
+
 }
 
 body{
@@ -82,10 +82,6 @@ input:focus{
 
 
 
-
-footer{
-
-}
 fieldset{
 
 }
@@ -102,10 +98,30 @@ footer h3{
   padding-bottom: 0px;
 }
 .checkbox{
+  border: 1px solid red;
   padding-left: 10px;
 }
+.checkbox input{
+  border: 1px solid orange;
+}
+.checkbox label{
+  border: 1px solid orange;
+  display: inline-block;
+  margin-left: 5px;
+  padding-left: 20px;
+}
 .radio{
+  border: 1px solid blue;
   padding-left: 10px;
+}
+.radio input{
+  border: 1px solid orange;
+}
+.radio label{
+  border: 1px solid blue;
+  display: inline-block;
+  margin-left: 5px;
+  padding-left: 20px;
 }
 #topics{
   font-size: 19px;
@@ -129,7 +145,8 @@ footer h3{
   font-size: 30px;
   color: white;
 }
-#button[type=button]{
+
+footer{
 
 }
 footer h4{
