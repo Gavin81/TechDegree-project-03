@@ -280,11 +280,9 @@ footer h4{
     margin: 0px 0px 0px -270px;
     padding: 0px 0px 0px 0px;
   }
-  footer h4{/* Copy right */
-    font-size: 15px;
-  }
+
   #topics{
-    font-size: 18px;
+    font-size: 20px;
     margin: 40px 0px 0px 0px;
   }
   #other{
@@ -305,5 +303,8 @@ footer h4{
     font-size: 19px;
     margin-left: 0px;
     padding-left: 0px;
+  }
+  footer h4{/* Copy right */
+    font-size: 15px;
   }
 }
