@@ -290,8 +290,8 @@ footer h4{
     background-color: lightgrey;
   }
   #button{
-    width: 97%;
-    font-size: 20px;
+    width: 95%;
+    font-size: 30px;
     border-radius: 5px;
     margin-top: 20px;
   }
@@ -305,6 +305,7 @@ footer h4{
     padding-left: 0px;
   }
   footer h4{/* Copy right */
-    font-size: 15px;
+    font-size: 20px;
+    color: black;
   }
 }
