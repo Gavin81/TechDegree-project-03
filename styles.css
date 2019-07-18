@@ -187,6 +187,11 @@ footer h4{
     width: 370px;
   }
 
+  .form input:required {
+    text-align: right;
+    padding-right: 20px;
+  }
+
   #name,
   #mail,
   #number,
