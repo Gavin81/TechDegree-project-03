@@ -156,6 +156,7 @@ footer h4{
 
 
 @media screen and (min-width: 768px){
+
   *{
     box-sizing: border-box;
   }
@@ -230,9 +231,17 @@ footer h4{
     float: right;
 */
   }
+  #name,
+  #mail,
+  #number,
+  #street-address,
+  #city,
+  #zip-code{
+    margin-left: -140px;
+  }
   #state{
     width: 300px;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 0px -140px;
   }
   #zip-code{
     width: 150px;
