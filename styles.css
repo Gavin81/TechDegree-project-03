@@ -55,9 +55,13 @@ legend{
   margin: 15px 0px;
   padding: 15px 90px;
   background-color: lightgrey;
+  border-radius: 3px 3px;
 }
-input:focus{
-
+.form input:hover{
+  border: 2px solid green;
+}
+.form input:focus{
+  border: 2px solid black;
 }
 #state{
   margin: 15px 0px 10px 70px;
