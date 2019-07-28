@@ -61,7 +61,7 @@ legend{
   border: 2px solid green;
 }
 .form input:focus{
-  border: 2px solid black;
+  border: 1px solid black;
 }
 #state{
   margin: 15px 0px 10px 70px;
