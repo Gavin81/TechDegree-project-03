@@ -132,7 +132,7 @@ footer h4{
 }
 
 
-
+/* TABLET VIEWING RESOLUTION */
 @media screen and (min-width: 768px){
 
   *{
@@ -279,4 +279,39 @@ footer h4{
     font-size: 20px;
     color: black;
   }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+  body{
+    border: 3px solid black;
+  }
+
+
+  legend{
+    margin-left: 15px;
+  }
+
+  .form {
+    width: 700px;
+  }
+
+  .info{
+    width: 670px;
+  }
+
+
+  .checkbox{
+    margin: auto;
+    width: 670px;
+  }
+
+  .radio{
+    margin: auto;
+    width: 670px;
+  }
+
+
+
 }
