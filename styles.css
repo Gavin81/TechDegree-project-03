@@ -122,9 +122,16 @@ fieldset h3{
   width: 84%;
   padding: 20px 10px 20px 10px;
   background-color: #075770;
+  transition: 2s;
   font-family: "bebas neue", sans-serif;
   font-size: 30px;
   color: white;
+}
+#button:hover{
+  background-color: #128fd6;
+}
+#button:active{
+  background-color: #d36a62;
 }
 
 footer h4{
