@@ -200,6 +200,9 @@ footer h4{
   .form input{
     width: 370px;
   }
+  .form input:hover{
+    border: 3px solid #075770;
+  }
   .form input:required {
     text-align: right;
     padding-right: 20px;
