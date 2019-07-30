@@ -61,10 +61,10 @@ legend{
   border-radius: 3px 3px;
 }
 .form input:hover{
-  border: 2px solid green;
+  border: 3px solid green;
 }
 .form input:focus{
-  border: 1px solid black;
+  border: 2px solid black;
 }
 #state{
   margin: 15px 0px 10px 70px;
@@ -200,7 +200,6 @@ footer h4{
   .form input{
     width: 370px;
   }
-
   .form input:required {
     text-align: right;
     padding-right: 20px;
