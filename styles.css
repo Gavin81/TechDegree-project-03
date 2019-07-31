@@ -1,6 +1,4 @@
-body{
-  border: 3px solid red;
-}
+
 
 header h1 {
   font-size: 25px;
@@ -149,9 +147,7 @@ footer h4{
     box-sizing: border-box;
   }
 
-  body{
-    border: 2px solid blue;
-  }
+
 
   header h1{
     font-size: 19px;
@@ -296,9 +292,7 @@ footer h4{
 
 @media screen and (min-width: 1024px) {
 
-  body{
-    border: 3px solid black;
-  }
+
 
 
   legend{
