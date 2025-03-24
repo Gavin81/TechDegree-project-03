@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 
 header h1 {
@@ -26,8 +29,8 @@ header h1 {
 }
 
 
-hr{
-  border: 3px solid black;
+hr {
+  border: 1px solid black;
 }
 
 
@@ -44,7 +47,12 @@ legend{
   font-size: 23px;
   margin-bottom: 10px;
 }
-
+.form {
+  
+}
+.form-area {
+  
+}
 .form label{
   display: block;
   font-size: 20px;
@@ -52,7 +60,7 @@ legend{
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
 }
-.form input{
+.form input {
   margin: 15px 0px;
   padding: 15px 90px;
   background-color: lightgrey;
@@ -163,8 +171,8 @@ footer h4{
   }
 
 
-  hr{
-    border: 3px solid black;
+  hr {
+    /* border: 1px solid black; */
     width: 98%;
   }
 
