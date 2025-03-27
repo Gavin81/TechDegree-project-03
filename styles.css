@@ -3,29 +3,38 @@
 }
 
 
+header {
+  /* border: 1px solid red; */
+  margin: 0;
+}
+
 header h1 {
+  /* border: 1px solid blue; */
   font-size: 25px;
   color: white;
   background-color: black;
   text-align: center;
-  margin: -9px -9px 0px -9px;
+  margin: 0;
   padding: 25px 50px;
 }
 
-
 .signup h2 {
+  /* border: 1px solid black; */
   font-size: 22px;
   color: black;
   text-align: center;
-  margin: 0px 0px 0px 0px;
+  margin: 0;
   padding: 20px 0px 10px 0px;
 }
 .signup p {
+  /* border: 2px solid green; */
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-size: 17px;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 20px 0px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 70%;
 }
 
 
@@ -34,8 +43,12 @@ hr {
 }
 
 
+fieldset {
+  /* border: 1px solid red; */
+}
 .number {
-  padding: 1px 5px;
+  /* border: 1px solid red; */
+  padding: 2px 9px;
   margin-left: 13px;
   background-color: #5fcf80;
   color: white;
@@ -43,7 +56,8 @@ hr {
   line-height: 30px;
   border-radius: 100% 100%;
 }
-legend{
+legend {
+  /* border: 1px solid red; */
   font-size: 23px;
   margin-bottom: 10px;
 }
@@ -52,6 +66,14 @@ legend{
 }
 .form-area {
   
+}
+.form-area .info {
+  /* border: 1px solid red; */
+}
+.info #state {
+  /* border: 1px solid blue; */
+  margin: 5px 0 0 0;
+  width: 88%;
 }
 .form label{
   display: block;
@@ -67,7 +89,7 @@ legend{
   border-radius: 3px 3px;
 }
 .form input:hover{
-  border: 3px solid green;
+  border: 2px solid green;
 }
 .form input:focus{
   border: 2px solid black;
@@ -122,10 +144,12 @@ fieldset h3{
   margin-top: 20px;
   padding: 40px 0px;
 }
-#button{
+#button {
+  border: 1px solid red;
+  border-radius: 6px;
   margin: auto;
   display: block;
-  width: 84%;
+  width: 95%;
   padding: 20px 10px 20px 10px;
   background-color: #075770;
   transition: 2s;
