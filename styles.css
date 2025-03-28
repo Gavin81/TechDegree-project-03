@@ -68,19 +68,25 @@ legend {
   
 }
 .form-area .info {
-  /* border: 1px solid red; */
+  width: auto;
+}
+.info label {
+  font-family: "Assisnt", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .info #state {
   /* border: 1px solid blue; */
   margin: 5px 0 0 0;
   width: 88%;
 }
-.form label{
+.form label {
   display: block;
-  font-size: 20px;
-  color: black;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  font-size: 18px;
+  color: grey;
+  margin: 0;
+  padding: 0;
+  width: 88%;
 }
 .form input {
   margin: 15px 0px;
@@ -99,16 +105,26 @@ legend {
   line-height: 20px;
   height: 45px;
 }
+.info .zip-code {
+  /* border: 1px solid green; */
+  margin: 15px 0 0 0;
+  padding: 0 0 5px 0;
+  width: 88%;
+}
+.info #zip-code {
+  /* border: 1px solid red; */
+  margin: 0;
+}
 
 
-hr{
+hr {
   margin: 50px 0px 40px 0px;
 }
 
 
 fieldset h3{
   font-size: 18px;
-  color: black;
+  color: grey;
   margin-top: 30px;
   padding-left: 9px;
   padding-bottom: 0px;
@@ -118,6 +134,7 @@ fieldset h3{
 }
 .checkbox label{
   display: inline-block;
+  color: grey;
   margin-left: 5px;
   padding-left: 7px;
 }
@@ -126,6 +143,7 @@ fieldset h3{
 }
 .radio label{
   display: inline-block;
+  color: grey;
   margin-left: 5px;
   padding-left: 7px;
 }
@@ -133,6 +151,7 @@ fieldset h3{
 #topics{
   width: 85%;
   font-size: 19px;
+  color: grey;
   margin-left: 17px;
   margin-top: 20px;
   padding: 0px 0px 0px 0px;
@@ -145,16 +164,17 @@ fieldset h3{
   padding: 40px 0px;
 }
 #button {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   border-radius: 6px;
   margin: auto;
   display: block;
-  width: 95%;
+  width: 83%;
   padding: 20px 10px 20px 10px;
-  background-color: #075770;
+  /* background-color: #075770; */
+  background-color: rgb(41, 197, 197);
   transition: 2s;
   font-family: "bebas neue", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
 }
 #button:hover{
@@ -164,11 +184,17 @@ fieldset h3{
   background-color: #d36a62;
 }
 
-footer h4{
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+footer h4 {
   font-size: 16px;
-  color: black;
+  color: grey;
   text-align: center;
-  margin-bottom: 180px;
+  padding: 20px 0;
+  margin: 0;
 }
 
 
