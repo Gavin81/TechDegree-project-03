@@ -4,22 +4,23 @@
 
 
 header {
-  /* border: 1px solid red; */
   margin: 0;
 }
 
 header h1 {
-  /* border: 1px solid blue; */
-  font-size: 25px;
+  font-size: 20px;
   color: white;
-  background-color: black;
+  background-color: rgb(58, 57, 63);
   text-align: center;
   margin: 0;
   padding: 25px 50px;
 }
 
+.signup {
+  margin: 0;
+  padding: 0;
+}
 .signup h2 {
-  /* border: 1px solid black; */
   font-size: 22px;
   color: black;
   text-align: center;
@@ -27,14 +28,14 @@ header h1 {
   padding: 20px 0px 10px 0px;
 }
 .signup p {
-  /* border: 2px solid green; */
   text-align: center;
   font-family: 'Playfair Display', serif;
-  font-size: 17px;
+  font-size: 15px;
+  color: grey;
   display: block;
   margin: 0 auto;
   padding: 0;
-  width: 70%;
+  width: 90%;
 }
 
 
@@ -42,12 +43,7 @@ hr {
   border: 1px solid black;
 }
 
-
-fieldset {
-  /* border: 1px solid red; */
-}
 .number {
-  /* border: 1px solid red; */
   padding: 2px 9px;
   margin-left: 13px;
   background-color: #5fcf80;
@@ -57,18 +53,25 @@ fieldset {
   border-radius: 100% 100%;
 }
 legend {
-  /* border: 1px solid red; */
   font-size: 23px;
   margin-bottom: 10px;
 }
 .form {
-  
+  border: 1px solid purple;
+}
+fieldset {
+  border: 1px solid blue;
+  width: 100%;
 }
 .form-area {
   
 }
+.form-area legend span {
+  border: 1px solid black;
+}
 .form-area .info {
-  width: auto;
+  border: 1px solid red;
+  width: 100%;
 }
 .info label {
   font-family: "Assisnt", sans-serif;
@@ -76,23 +79,30 @@ legend {
   padding: 0;
 }
 .info #state {
-  /* border: 1px solid blue; */
   margin: 5px 0 0 0;
-  width: 88%;
+  width: 100%;
 }
 .form label {
+  border: 1px solid green;
   display: block;
   font-size: 18px;
   color: grey;
   margin: 0;
-  padding: 0;
-  width: 88%;
+  padding: 10px 0;
+  width: 100%;
 }
 .form input {
-  margin: 15px 0px;
-  padding: 15px 90px;
+  border: 2px solid yellow;
+  font-size: 20px;
+  width: 100%;
+  margin: 0px 0px;
+  padding: 15px 5px;
   background-color: lightgrey;
   border-radius: 3px 3px;
+}
+.info .value {
+  border: 1px solid red;
+  font-size: 10px;
 }
 .form input:hover{
   border: 2px solid green;
