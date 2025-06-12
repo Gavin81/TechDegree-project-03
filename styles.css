@@ -57,21 +57,21 @@ legend {
   margin-bottom: 10px;
 }
 .form {
-  border: 1px solid purple;
+  
 }
 fieldset {
-  border: 1px solid blue;
-  width: 100%;
+  
 }
 .form-area {
-  
+  width: 100%;
 }
 .form-area legend span {
   border: 1px solid black;
+  display: none;
 }
 .form-area .info {
-  border: 1px solid red;
   width: 100%;
+  margin-bottom: 20px;
 }
 .info label {
   font-family: "Assisnt", sans-serif;
@@ -83,7 +83,7 @@ fieldset {
   width: 100%;
 }
 .form label {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: block;
   font-size: 18px;
   color: grey;
@@ -92,38 +92,38 @@ fieldset {
   width: 100%;
 }
 .form input {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   font-size: 20px;
   width: 100%;
+  height: 40px;
   margin: 0px 0px;
   padding: 15px 5px;
   background-color: lightgrey;
   border-radius: 3px 3px;
 }
-.info .value {
-  border: 1px solid red;
-  font-size: 10px;
+.info #name, #mail, #number, #zip-code, #street-address {
+  font-size: 14px;
 }
-.form input:hover{
-  border: 2px solid green;
+.form input:hover {
+  /* border: 2px solid green; */
 }
-.form input:focus{
-  border: 2px solid black;
+.form input:focus {
+  /* border: 2px solid black; */
 }
-#state{
+#state {
   margin: 15px 0px 10px 70px;
   line-height: 20px;
   height: 45px;
+  font-size: 15px;
 }
 .info .zip-code {
-  /* border: 1px solid green; */
   margin: 15px 0 0 0;
   padding: 0 0 5px 0;
   width: 88%;
 }
 .info #zip-code {
-  /* border: 1px solid red; */
   margin: 0;
+  width: 50%;
 }
 
 
@@ -132,33 +132,33 @@ hr {
 }
 
 
-fieldset h3{
+fieldset h3 {
   font-size: 18px;
   color: grey;
   margin-top: 30px;
   padding-left: 9px;
   padding-bottom: 0px;
 }
-.checkbox{
+.checkbox {
   padding-left: 10px;
 }
-.checkbox label{
+.checkbox label {
   display: inline-block;
   color: grey;
   margin-left: 5px;
   padding-left: 7px;
 }
-.radio{
+.radio {
   padding-left: 10px;
 }
-.radio label{
+.radio label {
   display: inline-block;
   color: grey;
   margin-left: 5px;
   padding-left: 7px;
 }
 
-#topics{
+#topics {
   width: 85%;
   font-size: 19px;
   color: grey;
@@ -166,7 +166,7 @@ fieldset h3{
   margin-top: 20px;
   padding: 0px 0px 0px 0px;
 }
-#other{
+#other {
   margin: auto;
   display: block;
   width: 90%;
