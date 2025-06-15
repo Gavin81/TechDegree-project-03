@@ -2,7 +2,9 @@
   box-sizing: border-box;
 }
 
-
+body {
+  margin: 0;
+}
 header {
   margin: 0;
 }
@@ -41,6 +43,9 @@ header h1 {
 
 hr {
   border: 1px solid black;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  width: 90%;
 }
 
 .number {
@@ -56,20 +61,20 @@ legend {
   font-size: 23px;
   margin-bottom: 10px;
 }
-.form {
-  
-}
-fieldset {
-  
-}
+
+
 .form-area {
+  border: none;
   width: 100%;
 }
+.form-area legend {
+  padding: 0;
+}
 .form-area legend span {
-  border: 1px solid black;
   display: none;
 }
 .form-area .info {
+  border: none;
   width: 100%;
   margin-bottom: 20px;
 }
@@ -83,7 +88,6 @@ fieldset {
   width: 100%;
 }
 .form label {
-  /* border: 1px solid green; */
   display: block;
   font-size: 18px;
   color: grey;
@@ -92,7 +96,6 @@ fieldset {
   width: 100%;
 }
 .form input {
-  /* border: 2px solid yellow; */
   font-size: 20px;
   width: 100%;
   height: 40px;
@@ -105,10 +108,10 @@ fieldset {
   font-size: 14px;
 }
 .form input:hover {
-  /* border: 2px solid green; */
+  
 }
 .form input:focus {
-  /* border: 2px solid black; */
+  
 }
 #state {
   margin: 15px 0px 10px 70px;
@@ -128,25 +131,48 @@ fieldset {
 
 
 hr {
-  margin: 50px 0px 40px 0px;
+  margin: 40px 0 40px 0;
 }
 
 
+fieldset {
+  border: none;
+}
+fieldset legend {
+  
+}
 fieldset h3 {
   font-size: 18px;
   color: grey;
   margin-top: 30px;
-  padding-left: 9px;
+  padding-left: 0px;
   padding-bottom: 0px;
 }
 .checkbox {
-  padding-left: 10px;
+  border: 1px solid red;
+}
+.checkbox input {
+  border: 1px solid orange;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
 }
 .checkbox label {
-  display: inline-block;
+  border: 1px solid blue;
+  display: block;
+  width: 90%;
+  float: right;
+  padding-left: 15px;
+  text-indent: -15px;
+  /* display: block;
   color: grey;
-  margin-left: 5px;
-  padding-left: 7px;
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 50%; */
 }
 .radio {
   padding-left: 10px;
