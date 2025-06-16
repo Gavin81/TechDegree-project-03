@@ -88,6 +88,7 @@ legend {
   width: 100%;
 }
 .form label {
+  border: 1px solid red;
   display: block;
   font-size: 18px;
   color: grey;
@@ -107,9 +108,7 @@ legend {
 .info #name, #mail, #number, #zip-code, #street-address {
   font-size: 14px;
 }
-.form input:hover {
-  
-}
+
 .form input:focus {
   
 }
@@ -270,14 +269,6 @@ footer h4 {
     margin: auto;
     width: 100%;
   }
-  .form-area legend {
-    margin: 0;
-  }
-  .number {
-    margin: 0px 0px 0px -16px;
-    padding: 5px 10px 5px 10px;
-  }
-
   .form-area {
     border: none;
     margin: auto;
@@ -285,20 +276,38 @@ footer h4 {
     height: 560px;
     width: 100%;
   }
-
-  .form label {
-    border: 1px solid red;
-    /* display: inline-block; */
-    width: 130px;
+  .form-area legend {
+    margin: 0;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+  }
+  .info label {
+    border: 1px solid green;
+    width: ;
     text-align: left;
     margin: 20px 0 0 0;
     padding: 0;
   }
-  .form input {
+  .form label {
+    /* border: 1px solid red; */
+    /* display: inline-block; */
+    /* width: 130px;
+    text-align: left;
+    margin: 20px 0 0 0;
+    padding: 0; */
+    width: 200px;
+  }
+  .info input {
     border: 1px solid blue;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    align-items: right;
   }
   .form input:hover{
-    border: 3px solid #075770;
+    border: 2px solid #075770;
   }
   .form input:required {
     text-align: right;
