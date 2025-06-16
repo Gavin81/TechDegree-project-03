@@ -135,6 +135,16 @@ hr {
 }
 
 
+/* Newsletter Options Styles */
+.newsletter legend {
+  margin: 0;
+  padding: 0;
+}
+.newsletter h3 {
+  margin: 0;
+  padding: 20px 0;
+}
+
 fieldset {
   border: none;
 }
@@ -148,11 +158,10 @@ fieldset h3 {
   padding-left: 0px;
   padding-bottom: 0px;
 }
-.checkbox {
- 
-}
+
 .checkbox .item {
-  display: grid;
+  display: flex;
+  align-items: center;
 }
 .checkbox input {
   width: 15px;
@@ -160,36 +169,48 @@ fieldset h3 {
 }
 .checkbox label {
   font-size: 16px;
+  padding-left: 10px;
 }
+
+
+/* Newsletter Format Styles */
 .radio {
   
 }
+.radio .item {
+  display: flex;
+  align-items: center;
+}
+.radio .item input {
+  width: 15px;
+  height: 15px;
+}
 .radio label {
-  
+  padding-left: 10px;
 }
 
 #topics {
-  border: 1px solid red;
-  width: ;
-  font-size: 19px;
+  font-size: 18px;
   color: grey;
-  margin-left: 0px;
   margin-top: 20px;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 10px 0px;
 }
 #other {
-  margin: auto;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(241, 235, 235);
+  font-size: 20px;
+  margin: 0 auto;
   display: block;
-  width: 90%;
-  margin-top: 20px;
-  padding: 40px 0px;
+  width: 100%;
+  padding: 40px 0;
 }
 #button {
-  /* border: 1px solid red; */
-  border-radius: 6px;
+  border: none;
+  border-radius: 4px;
   margin: auto;
   display: block;
-  width: 83%;
+  width: 91%;
   padding: 20px 10px 20px 10px;
   /* background-color: #075770; */
   background-color: rgb(41, 197, 197);
@@ -212,7 +233,7 @@ footer {
 }
 footer h4 {
   font-size: 16px;
-  color: grey;
+  color: lightgrey;
   text-align: center;
   padding: 20px 0;
   margin: 0;
@@ -223,42 +244,41 @@ footer h4 {
 /* TABLET VIEWING RESOLUTION */
 @media screen and (min-width: 768px){
 
-
   *{
     box-sizing: border-box;
   }
 
-
-  header h1{
+  header h1 {
     font-size: 19px;
   }
 
-
-  .signup h2{
+  .signup h2 {
     font-size: 23px;
     margin: 30px 0px 0px 0px;
   }
-  .signup p{
+  .signup p {
     font-size: 15px;
   }
 
 
   hr {
-    /* border: 1px solid black; */
     width: 98%;
   }
 
 
-  .form{
+  .form {
     margin: auto;
     width: 100%;
   }
-  .number{
+  .form-area legend {
+    margin: 0;
+  }
+  .number {
     margin: 0px 0px 0px -16px;
     padding: 5px 10px 5px 10px;
   }
 
-  .form-area{
+  .form-area {
     border: none;
     margin: auto;
     margin-top: 30px;
@@ -266,15 +286,16 @@ footer h4 {
     width: 100%;
   }
 
-  .form label{
-    display: inline-block;
+  .form label {
+    border: 1px solid red;
+    /* display: inline-block; */
     width: 130px;
     text-align: left;
-    margin: 10px 200px 0px 10px;
-    padding: 0px 0px 0px 0px;
+    margin: 20px 0 0 0;
+    padding: 0;
   }
-  .form input{
-    /* width: 370px; */
+  .form input {
+    border: 1px solid blue;
   }
   .form input:hover{
     border: 3px solid #075770;
@@ -329,7 +350,7 @@ footer h4 {
   }
   .checkbox label{
     width: 150px;
-    margin: 0px 0px 0px -320px;
+    margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
   }
 
