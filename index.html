@@ -75,33 +75,39 @@
 
   <div class="checkbox">
     <div class="item">
-      <label for="html">HTML</label>
       <input type="checkbox" id="html" name="newsletter" checked="checked">
+      <label for="html">HTML</label>
     </div>
 
     <div class="item">
-      <label for="css">CSS News</label>
       <input type="checkbox" id="css" name="newsletter" checked="checked">
+      <label for="css">CSS News</label>
     </div>
 
     <div class="item">
-      <label for="javascript">Javascript News</label>
       <input type="checkbox" id="javascript" name="newsletter" checked="checked">
+      <label for="javascript">Javascript News</label>
     </div>
   </div>
 
   <h3>Newsletter format</h3>
 
   <div class="radio">
-      <input type="radio" id="html-format" name="format" checked>
-      <label for="html-format">HTML</label>
 
-      <br><input type="radio" id="plain" name="format" checked>
+    <div class="item">
+      <label for="html-format">HTML</label>
+      <input type="radio" id="html-format" name="format">
+    </div>
+
+    <div>
       <label for="plain">Plain text</label>
+      <input type="radio" id="plain" name="format">
+    </div>
+
   </div>
 
-  <br><label for="other" id="topics">Other topics you'd like to hear about</label>
-    <textarea id="other" name="other"> </textarea>
+  <label for="other" id="topics">Other topics you'd like to hear about</label>
+  <textarea id="other" name="other"> </textarea>
 
 </fieldset>
 <button type="submit" id="button" value="Sign Up">Sign Up</button>
@@ -110,6 +116,6 @@
 </main>
 
 <footer>
-  <h4> Copyright The Code Review</h4>
+  <h4>Copyright The Code Review</h4>
 </footer>
 </body>

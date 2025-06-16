@@ -149,40 +149,31 @@ fieldset h3 {
   padding-bottom: 0px;
 }
 .checkbox {
-  border: 1px solid black;
+ 
 }
 .checkbox .item {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
 }
 .checkbox input {
-  border: 1px solid green;
-  margin-right: ;
-  padding: 0;
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
 }
 .checkbox label {
-  border: 1px solid blue;
-  margin: 0 0 0 30px;
-  padding: 0;
   font-size: 16px;
 }
 .radio {
-  padding-left: 10px;
+  
 }
 .radio label {
-  /* display: inline-block; */
-  /* color: grey;
-  margin-left: 5px;
-  padding-left: 7px; */
+  
 }
 
 #topics {
-  width: 85%;
+  border: 1px solid red;
+  width: ;
   font-size: 19px;
   color: grey;
-  margin-left: 17px;
+  margin-left: 0px;
   margin-top: 20px;
   padding: 0px 0px 0px 0px;
 }
@@ -283,7 +274,7 @@ footer h4 {
     padding: 0px 0px 0px 0px;
   }
   .form input{
-    width: 370px;
+    /* width: 370px; */
   }
   .form input:hover{
     border: 3px solid #075770;
