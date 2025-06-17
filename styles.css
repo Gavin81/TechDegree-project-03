@@ -88,7 +88,7 @@ legend {
   width: 100%;
 }
 .form label {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: block;
   font-size: 18px;
   color: grey;
@@ -284,11 +284,9 @@ footer h4 {
     align-items: center;
   }
   .info label {
-    border: 1px solid green;
-    width: ;
-    text-align: left;
-    margin: 20px 0 0 0;
-    padding: 0;
+    /* border: 1px solid green; */
+    width: 170px;
+    margin-top: 15px;
   }
   .form label {
     /* border: 1px solid red; */
@@ -296,17 +294,17 @@ footer h4 {
     /* width: 130px;
     text-align: left;
     margin: 20px 0 0 0;
-    padding: 0; */
-    width: 200px;
+    padding: 0; 
+    width: 200px;*/
   }
   .info input {
-    border: 1px solid blue;
-    margin: 0;
+    /* border: 1px solid blue; */
+    /* margin: 0;
     padding: 0;
     width: 40%;
-    align-items: right;
+    align-items: right; */
   }
-  .form input:hover{
+  .form input:hover {
     border: 2px solid #075770;
   }
   .form input:required {
@@ -319,17 +317,20 @@ footer h4 {
   #number,
   #street-address,
   #city,
-  #zip-code{
-    margin-left: -140px;
+  #zip-code {
+    /* border: 1px solid red; */
+    margin-top: 15px;
   }
-  #state{
-    width: 370px;
-    margin: 10px 0px 0px -140px;
+  #state {
+    /* width: 370px; */
+    /* margin: 10px 0px 0px -140px; */
   }
-  #zip-code{
-    width: 150px;
+  #zip-code {
+    border: 1px solid red;
+    background-color: lightgrey;
+    margin-left: 0;
   }
-  .form input:focus{
+  .form input:focus {
     background-color: lightgrey;
   }
   .info {
@@ -337,63 +338,63 @@ footer h4 {
   }
 
 
-  hr{
+  hr {
       margin: 40px 0px 40px 0px;
   }
 
 
-  fieldset{
+  fieldset {
     border: none;
   }
-  legend{/* Newsletter Heading */
+  legend {/* Newsletter Heading */
     font-size: 20px;
     margin-top: 30px;
     padding-left: 10px;
   }
-  fieldset h3{/* Select the newsletters */
+  fieldset h3 {/* Select the newsletters */
     font-size: 20px;
     padding-left: 0px;
   }
   .checkbox {
     padding: 0px 0px 0px 0px;
   }
-  .checkbox label{
+  .checkbox label {
     width: 150px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
   }
 
 
-  .radio label{
+  .radio label {
     width: 100px;
     margin: 0px 0px 0px -330px;
     padding: 0px 0px 0px 0px;
   }
 
-  #topics{
+  #topics {
     font-size: 20px;
     margin: 10px 0px 0px 5px;
   }
-  #other{
+  #other {
     width: 100%;
     background-color: lightgrey;
   }
-  #button{
+  #button {
     width: 95%;
     font-size: 30px;
     border-radius: 5px;
     margin-top: 20px;
   }
 
-  footer{
+  footer {
     width: 100%;
   }
-  footer h3{/* Newsletter Format */
+  footer h3 {/* Newsletter Format */
     font-size: 19px;
     margin-left: 0px;
     padding-left: 0px;
   }
-  footer h4{/* Copy right */
+  footer h4 {/* Copy right */
     font-size: 20px;
     color: black;
   }
