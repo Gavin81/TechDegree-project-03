@@ -334,7 +334,6 @@ footer h4 {
     padding: 9px 0;
   }
   .info #zip-code {
-    border: ;
     width: 30%;
     margin: 0;
     padding: 9px 0;
@@ -348,33 +347,53 @@ footer h4 {
 
 
   hr {
-      margin: 40px 0px 40px 0px;
+    margin: 40px 0px 40px 0px;
   }
 
 
   fieldset {
-    border: none;
+    
   }
-  legend {/* Newsletter Heading */
+
+  /* newsletter heading */
+  .newsletter legend {
     font-size: 20px;
-    margin-top: 30px;
-    padding-left: 10px;
-  }
-  fieldset h3 {/* Select the newsletters */
-    font-size: 20px;
+    margin-top: 20px;
     padding-left: 0px;
   }
+
+  /* the h3 select the newsletter you would like */
+  .newsletter h3 {
+    font-size: 20px;
+  }
+
+  /* the html css and JS news checkbox area */
   .checkbox {
-    padding: 0px 0px 0px 0px;
+    border: 1px solid blue;
+    padding: 0;
+  }
+  .checkbox .item {
+    border: 1px solid red;
+    width: 20px;
+    /* margin-top: 7px;
+    margin-bottom: 7px; */
+    padding: 0;
+  }
+  .checkbox .item input {
+    border: 2px solid orange;
   }
   .checkbox label {
-    width: 150px;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    border: 1px solid orange;
+    width: ;
+    margin: 0px 0px 0px 10px;
+    padding: 0;
   }
 
 
-  .radio label {
+  .radio {
+    
+  }
+  .item label {
     width: 100px;
     margin: 0px 0px 0px -330px;
     padding: 0px 0px 0px 0px;
