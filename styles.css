@@ -88,7 +88,6 @@ legend {
   width: 100%;
 }
 .form label {
-  /* border: 1px solid red; */
   display: block;
   font-size: 18px;
   color: grey;
@@ -309,7 +308,6 @@ footer h4 {
   #street-address,
   #city,
   #zip-code {
-    /* border: 1px solid green; */
     margin-top: 15px;
   }
   #state {
@@ -320,7 +318,6 @@ footer h4 {
     background-color: lightgrey;
   }
   .info .zip-code {
-    /* border: 1px solid blue; */
     width: 138px;
     margin: 0;
     padding: 9px 0;
@@ -343,9 +340,6 @@ footer h4 {
   }
 
 
-  fieldset {
-    
-  }
 
   /* newsletter heading */
   .newsletter legend {
@@ -420,7 +414,7 @@ footer h4 {
 @media screen and (min-width: 1024px) {
 
 
-  legend{
+  legend {
     margin-left: 15px;
   }
 
@@ -428,19 +422,26 @@ footer h4 {
     width: 700px;
   }
 
-  .info{
+  .info {
     width: 670px;
   }
 
 
-  .checkbox{
+  .checkbox {
     margin: auto;
     width: 670px;
   }
 
-  .radio{
+  .radio {
     margin: auto;
     width: 670px;
+  }
+
+  .form-area .info .zip-code {
+    width: 136px;
+  }
+  .form-area .info #zip-code {
+    font-size: 25px;
   }
 
 
