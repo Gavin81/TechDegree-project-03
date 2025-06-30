@@ -27,22 +27,22 @@
     <legend>Contact Information</legend>
       <div class="info">
         <label for="name">Full Name</label>
-        <input type="text" name="user_name" id="name" value="Required">
+        <input type="text" name="user_name" id="name" value="Required" placeholder="Required">
       </div>
 
       <div class="info">
         <label for="mail">Email Address</label>
-        <input type="email" name="user_email" id="mail" value="Required">
+        <input type="email" name="user_email" id="mail" value="" placeholder="Required">
       </div>
 
       <div class="info">
         <label for="number">Phone Number</label>
-        <input type="tel" name="phone-number" id="number" value="Required">
+        <input type="tel" name="phone-number" id="number" value="">
       </div>
 
       <div class="info">
         <label for="street-address">Street Address</label>
-        <input type="text" pattern="[0-9]*" name="street-address" id="street-address" value="Required">
+        <input type="text" pattern="[0-9]*" name="street-address" id="street-address" value="">
       </div>
 
       <div class="info">
@@ -61,7 +61,7 @@
 
       <div class="info">
         <label for="zip-code" class="zip-code">Zip Code</label>
-        <input type="text" pattern="[0-9]*" name="zip-code" id="zip-code" value="Required">
+        <input type="text" pattern="[0-9]*" name="zip-code" id="zip-code" value="">
       </div>
   </fieldset>
 
@@ -95,13 +95,11 @@
   <div class="radio">
 
     <div class="item">
-      <!-- <label for="html-format">HTML</label> -->
       <input type="radio" id="html-format" name="format">
       <label for="html-format">HTML</label>
     </div>
 
     <div class="item">
-      <!-- <label for="plain">Plain text</label> -->
       <input type="radio" id="plain" name="format">
       <label for="plain">Plain text</label>
     </div>

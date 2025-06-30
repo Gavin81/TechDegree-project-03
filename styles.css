@@ -361,51 +361,46 @@ footer h4 {
 
   /* the html css and JS news checkbox area */
   .checkbox {
-    border: 1px solid blue;
-    padding: 0;
+    /* padding: 0; */
   }
   .checkbox .item {
-    border: 1px solid red;
-    width: 20px;
-    /* margin-top: 7px;
-    margin-bottom: 7px; */
-    padding: 0;
+    /* width: 100px;
+    padding: 0; */
   }
   .checkbox .item input {
-    border: 2px solid orange;
+  
   }
-  .checkbox label {
-    border: 1px solid black;
-    width: 100%;
+  .checkbox .item label {
+    /* width: 0;
     margin: 0px 0px 0px 10px;
-    padding: 0;
+    padding: 0; */
   }
 
 
-  .radio {
-    
-  }
   .item label {
-    width: 100px;
-    margin: 0px 0px 0px -330px;
-    padding: 0px 0px 0px 0px;
+    margin: 5px 0px 5px 12px;
+    padding: 0;
   }
 
   #topics {
     font-size: 20px;
-    margin: 10px 0px 0px 5px;
+    margin: 10px 0 0 0;
+    padding: 5px 0 3px 0;
   }
+  /* the text area */
   #other {
     width: 100%;
     background-color: lightgrey;
   }
+  /* BUTTON/SUBMIT/SIGN UP */
   #button {
-    width: 95%;
-    font-size: 30px;
+    width: 96%;
+    font-size: 20px;
     border-radius: 5px;
     margin-top: 20px;
   }
 
+  /* THE GENERAL FOOTER AREA */
   footer {
     width: 100%;
   }
@@ -415,8 +410,8 @@ footer h4 {
     padding-left: 0px;
   }
   footer h4 {/* Copy right */
-    font-size: 20px;
-    color: black;
+    font-size: 15px;
+    color: lightgrey;
   }
 }
 
