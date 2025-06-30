@@ -109,9 +109,6 @@ legend {
   font-size: 14px;
 }
 
-.form input:focus {
-  
-}
 #state {
   margin: 15px 0px 10px 70px;
   line-height: 20px;
@@ -147,9 +144,7 @@ hr {
 fieldset {
   border: none;
 }
-fieldset legend {
-  
-}
+
 fieldset h3 {
   font-size: 18px;
   color: grey;
@@ -173,9 +168,6 @@ fieldset h3 {
 
 
 /* Newsletter Format Styles */
-.radio {
-  
-}
 .radio .item {
   display: flex;
   align-items: center;
@@ -240,7 +232,7 @@ footer h4 {
 
 
 
-/* TABLET VIEWING RESOLUTION */
+/* TABLET VIEWING RESOLUTION *************************************************/
 @media screen and (min-width: 768px){
 
   *{
@@ -383,8 +375,8 @@ footer h4 {
     border: 2px solid orange;
   }
   .checkbox label {
-    border: 1px solid orange;
-    width: ;
+    border: 1px solid black;
+    width: 100%;
     margin: 0px 0px 0px 10px;
     padding: 0;
   }
@@ -429,7 +421,7 @@ footer h4 {
 }
 
 
-
+/* FULL SCREEN MEDIA QUERIES ****************************************/
 @media screen and (min-width: 1024px) {
 
 
